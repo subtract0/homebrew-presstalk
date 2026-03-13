@@ -1,8 +1,8 @@
 cask "presstalk" do
-  version "0.1.4"
-  sha256 "3e65073b8de9e8ce70a712c830af0c3fb714f1909ba7e0551ea7cc9b8e8ea8d5"
+  version "0.1.5"
+  sha256 "511b5bba47b98c49bb92e6ae8c4b8af4291acea4076a3c87836e510426a688b2"
 
-  url "https://github.com/subtract0/presstalk-releases/releases/download/v0.1.4/PressTalk-0.1.4-macos-arm64.zip"
+  url "https://github.com/subtract0/presstalk-releases/releases/download/v0.1.5/PressTalk-0.1.5-macos-arm64.zip"
   name "PressTalk"
   desc "Hold-to-talk local dictation for Apple Silicon"
   homepage "https://github.com/subtract0/presstalk-releases"
@@ -19,7 +19,7 @@ cask "presstalk" do
   end
 
   caveats <<~EOS
-    PressTalk installs a dedicated F5 bridge and may also use the native path on Macs where it behaves correctly.
+    PressTalk installs a dedicated F5 bridge for reliable interception.
     After install, approve the macOS permission prompts from PressTalk and Karabiner-Elements.
     If you need to rerun setup manually, use:
       /bin/bash /Applications/PressTalk.app/Contents/Resources/presstalk-bootstrap.sh
