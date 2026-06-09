@@ -1,8 +1,8 @@
 cask "presstalk" do
-  version "0.1.6-test2"
-  sha256 "7c4c95358e73f9bd192c09d2464b6d7a4839b56a4eebb721e68b252d97968393"
+  version "0.1.6-test3"
+  sha256 "4cb2bd62199f3b62aba6ba6057373a868584e521e97a03bb1cdb37b9cc36db33"
 
-  url "https://github.com/subtract0/presstalk-releases/releases/download/v0.1.6-test2/PressTalk-0.1.6-test2-macos-arm64.zip"
+  url "https://github.com/subtract0/presstalk-releases/releases/download/v0.1.6-test3/PressTalk-0.1.6-test3-macos-arm64.zip"
   name "PressTalk"
   desc "Hold-to-talk local dictation for Apple Silicon"
   homepage "https://github.com/subtract0/presstalk-releases"
