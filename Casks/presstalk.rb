@@ -7,6 +7,12 @@ cask "presstalk" do
   desc "Hold-to-talk local dictation for Apple Silicon"
   homepage "https://presstalk.app/"
 
+  livecheck do
+    url :url
+    regex(/^v?(\d+(?:\.\d+)+)$/i)
+    strategy :github_latest
+  end
+
   depends_on arch: :arm64
   depends_on macos: ">= :sonoma"
 
