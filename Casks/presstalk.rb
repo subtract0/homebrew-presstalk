@@ -1,6 +1,6 @@
 cask "presstalk" do
-  version "0.1.26"
-  sha256 "6b4844176aadfa15ee2c430af359be28e2e9aae4a96b9c0b3eea880eb6fc62c7"
+  version "0.1.27"
+  sha256 "412aeb3919742868864da61ce97b1b21f1efb2b609378a729f8fd71eb98ad380"
 
   url "https://github.com/subtract0/presstalk/releases/download/v#{version}/PressTalk-#{version}-macos-arm64.dmg"
   name "PressTalk"
